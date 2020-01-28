@@ -1,0 +1,209 @@
+input{ 
+    /* width: 480px; */
+    height: 72px;
+    /* left: 180px;
+    top: 396px;     */
+    background: #FFFFFF;
+    border: 1px solid rgba(150, 12, 12, 0.5);
+    box-sizing: border-box;
+    margin-top: 24px;
+    
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+    color: #2B1C1C;
+}
+  
+input:focus {
+outline: 0;
+border-color: #FF2E2E;
+background-color: white;
+box-shadow: none;
+}
+
+input:focus::-webkit-input-placeholder {
+opacity: 10;
+text-overflow: ellipsis;
+transform-origin: left top;
+transform: translate(0, 1.025rem) scale(0.7);
+padding-top: 140px;
+color: #FF2E2E;
+white-space: nowrap;
+overflow: hidden;
+font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: normal;
+transition: all 0.2s;
+touch-action: manipulation;
+}
+
+::-webkit-input-placeholder {
+opacity: 1;
+transition: inherit;
+}
+
+.fade-enter-active, .fade-leave-active {
+    transition: opacity .5s
+}
+.fade-enter, .fade-leave-active {
+    opacity: 0
+}
+.register_input1{
+    height: 72px;
+    background: #FFFFFF;
+    border: 1px solid rgba(150, 12, 12, 0.5);
+    box-sizing: border-box;
+    border-radius: 6px;
+
+
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+
+    color: #2B1C1C;
+}
+.register_input2{    
+    height: 72px;
+
+    background: #FFFFFF;
+    border: 1px solid rgba(150, 12, 12, 0.5);
+    box-sizing: border-box;
+    border-radius: 6px;
+
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+
+    color: #2B1C1C;
+}
+#register_fil{
+    margin-top: 80px;
+    width: 480px;
+}
+select{     
+    height: 72px;
+    margin-top: 24px;
+    left: 180px;
+    top: 588px;
+    
+    background: #FFFFFF;
+    border: 1px solid rgba(150, 12, 12, 0.5);
+    box-sizing: border-box;
+    border-radius: 6px;   
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+
+
+    /* color: #2B1C1C;  */
+    
+}
+select:focus{
+    outline: 0;
+    border-color: #FF2E2E;
+    background-color: white;
+    box-shadow: none;
+}
+option{
+    align-items: center;
+}
+#register_wrapper{
+    border-radius: 6px;
+    /* width: 1920px; */
+    height: 1080px;
+    margin: 0px;
+    /* padding: 40px; */
+}
+#register_frame-col1{
+    background-color: white;
+    /* margin-left: 5px; */
+    padding: 0 5%;
+    
+}
+#register_frame-col2{
+    background-color: #FFF0CE;
+    padding: 0px;
+}
+
+#register_submit{
+    background-color:red; 
+    color: white; 
+    border: 1px solid red; 
+    width:100%;
+    /* width: 480px; */
+    height: 72px;
+    left: 180px;
+    top: 850px;
+    margin-top: 94px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 27px;
+    /* display: flex; */
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+
+    color: #FFFFFF;
+}
+button{border-color:red; 
+    color: red;
+}
+a{
+    color: crimson;
+}
+img{
+    padding: 10% 5px;   
+  }
+#register_partner{
+    float: right;
+    margin-top: 55px;
+    margin-right: 150px;
+    height: 55px;
+    /* left: 1530px;
+    top: 60px; */
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+    
+    color: #FF2E2E;
+}
+#register_partner:hover{
+    background-color: #FFFFFF;
+}
+
+#register_bigform{
+    padding-top: 12px;
+    margin: 0px;
+}
+#register_bigform1{
+    padding-top: 2px;
+    margin: 0px;
+}
